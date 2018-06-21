@@ -1,0 +1,7 @@
+mysql 5.1版
+
+先修改my.ini字符集为utf8，重启mysql
+
+然后导入脚本
+mysql -uroot -proot wl_db < wl_dbutf8.sql
+
